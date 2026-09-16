@@ -1,0 +1,58 @@
+[
+    {
+        "scriptName": "0.[NSFW插图]电脑适配",
+        "disabled": true,
+        "runOnEdit": true,
+        "findRegex": "/<NSFW_IMG>(.*?)<\\/NSFW_IMG>/gi",
+        "trimStrings": [],
+        "replaceString": "<center><div style=\"max-width: 600px; margin: 0 auto;\"><img src=\"https://gitlab.com/xinqing401/hucx/-/raw/main/%E6%8E%8C%E4%B8%AD%E7%9A%84%E7%BE%8E%E6%AF%8D/NSFW/$1\" style=\"width: 100%; height: auto; border: 3px solid #333; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 5px; background: white; display: block;\" /></div></center>",
+        "placement": [1, 2],
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null,
+        "markdownOnly": true,
+        "promptOnly": false
+    },
+    {
+        "scriptName": "0.[SFW插图]电脑适配",
+        "disabled": true,
+        "runOnEdit": true,
+        "findRegex": "/<SFW_IMG>(.*?)<\\/SFW_IMG>/gi",
+        "trimStrings": [],
+        "replaceString": "<center><div style=\"max-width: 600px; margin: 0 auto;\"><img src=\"https://gitlab.com/xinqing401/hucx/-/raw/main/%E6%8E%8C%E4%B8%AD%E7%9A%84%E7%BE%8E%E6%AF%8D/SFW/$1\" style=\"width: 100%; height: auto; border: 3px solid #333; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 5px; background: white; display: block;\" /></div></center>",
+        "placement": [1, 2],
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null,
+        "markdownOnly": true,
+        "promptOnly": false
+    },
+    {
+        "scriptName": "1.[NSFW插图]手机适配",
+        "disabled": false,
+        "runOnEdit": true,
+        "findRegex": "/<NSFW_IMG>(.*?)<\\/NSFW_IMG>/gi",
+        "trimStrings": [],
+        "replaceString": "<center><div style=\"max-width: 800px; margin: 0 auto;\"><img src=\"https://gitlab.com/xinqing401/hucx/-/raw/main/%E6%8E%8C%E4%B8%AD%E7%9A%84%E7%BE%8E%E6%AF%8D/NSFW/$1\" style=\"width: 80%; height: auto; border: 3px solid #333; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 5px; background: white; display: block;\" /></div></center>",
+        "placement": [1, 2],
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null,
+        "markdownOnly": true,
+        "promptOnly": false
+    },
+    {
+        "scriptName": "1.[SFW插图]手机适配",
+        "disabled": false,
+        "runOnEdit": true,
+        "findRegex": "/<SFW_IMG>(.*?)<\\/SFW_IMG>/gi",
+        "trimStrings": [],
+        "replaceString": "<center><div style=\"max-width: 800px; margin: 0 auto;\"><img src=\"https://gitlab.com/xinqing401/hucx/-/raw/main/%E6%8E%8C%E4%B8%AD%E7%9A%84%E7%BE%8E%E6%AF%8D/SFW/$1\" style=\"width: 80%; height: auto; border: 3px solid #333; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); padding: 5px; background: white; display: block;\" /></div></center>",
+        "placement": [1, 2],
+        "substituteRegex": 0,
+        "minDepth": null,
+        "maxDepth": null,
+        "markdownOnly": true,
+        "promptOnly": false
+    }
+]
